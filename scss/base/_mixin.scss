@@ -27,3 +27,8 @@ grid-template-rows: $rows;
     text-decoration: $textdecor;
     list-style: $liststyle;
 }
+
+@mixin botones ($start, $end){
+    grid-column-start: $start;
+    grid-column-end: $end;
+}
